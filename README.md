@@ -11,7 +11,7 @@ pip intall tensorflow==1.8.0
 ```
 
 # Data
-You will find in the `data` folder, AVLetters data that we extracted (and transformed in numpy arrays) and organized in a h5 file. The original dataset can be downloaded from [here](http://www.ee.surrey.ac.uk/Projects/LILiR/datasets/avletters1/index.html).
+Our experiments have been run on AVLetters data that we extracted (and transformed in numpy arrays) and organized in a h5 file. The original dataset can be downloaded from [here](http://www.ee.surrey.ac.uk/Projects/LILiR/datasets/avletters1/index.html). Unfortunately, due to the size of this file we can't push it on this repository. f you want to download it, please follow the link provided in the text file in the `data` folder.
 
 You can find in this file a key corresponding to each dataset person's name. Each key will let you access independently visual data, audio data and their labels (one hot format and plain format).
 
